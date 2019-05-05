@@ -16,6 +16,7 @@ export default {
       { hid: 'description', name: 'description', content: pkg.description }
     ],
     link: [
+      { rel: 'manifest', href: '/manifest.json' }
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' }
     ]
   },
